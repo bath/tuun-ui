@@ -1,16 +1,43 @@
 .App {
   background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: content-box;
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif; */
+}
+
+.move-items-up {
+  margin-top: -50rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.purple {
+  color: #6C2EB9;
+}
+
+.dark-black {
+  color: #282c34;
+}
+
+.align-center {
+  text-align: center;
+  align-items: center;
 }
 
 .App-foreground {
-  min-height: 110vh;
+  padding-bottom: 10rem;
   display: flex;
   text-align: center;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: start;
+  align-content: start;
   color: white;
+  position: relative;
+  top: 150px;
 }
 
 .better-logo {
@@ -26,6 +53,14 @@
   height: 40vmin;
 }
 
+.hint {
+  font-size: 1rem !important;
+}
+
+.top-spacing {
+  padding-top: 6rem;
+}
+
 .App-header {
   margin: 0;
   bottom: 0%;
@@ -33,15 +68,47 @@
 }
 
 .App-link {
-  color: #09d3ac;
-  display: flex;
-  justify-content: center;
+  background-color: #6C2EB9 !important;
+  border-color: #6C2EB9 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  border-radius: 0.25rem !important;
+  padding: 0.5rem !important;
+}
+
+.purple-btn {
+  background-color: #6C2EB9 !important;
+  border-color: #6C2EB9 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  border-radius: 0.25rem !important;
+}
+
+.form-button {
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
 }
 
 .Title {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 8vw;
 }
 
+.jumbotron {
+  background-color: #343a40!important;
+}
+
+.table {
+  font-size: 12px;
+  text-align: left;
+  white-space: normal;
+}
+
+.NavTab {
+  color: #fff !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dropdown-divider {
+    border-top: 3px solid #6C2EB9!important;
+}

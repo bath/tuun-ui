@@ -1,0 +1,12 @@
+.create-button {
+  background-color: #6C2EB9 !important;
+  font-size: 3rem;
+  border-color: #fff !important;
+  border-width: 0.1rem;
+  border-radius: 0.25rem !important;
+  color: #fff !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
